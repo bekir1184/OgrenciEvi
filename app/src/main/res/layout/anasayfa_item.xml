@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/grey_active"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="24dp"
+        android:layout_margin="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:layout_margin="10dp"
+                android:id="@+id/kategoriResmiAnaSayfa"
+                />
+            <TextView
+                android:id="@+id/baslikKategori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faturalar"
+                android:layout_centerHorizontal="true"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/graph"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="10dp"/>
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:layout_below="@+id/baslikKategori"
+                android:layout_centerInParent="true"
+                android:layout_width="match_parent"
+                android:layout_margin="30dp"
+                android:layout_height="match_parent"
+                android:id="@+id/chart"/>
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="50dp"
+                android:id="@+id/list"
+                android:layout_below="@id/baslikKategori"/>
+
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

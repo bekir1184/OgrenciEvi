@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/grey_active"
+    tools:context=".Ekleme.AlarmAyarla_Frag">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hatırlatıcı Oluştur"
+            android:textSize="25sp"
+            android:id="@+id/harcamalarBaslik"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:id="@+id/dipDot"
+            android:textSize="15sp"
+            android:text="Ev arkadaşlarınla ortak hatırlatıcı oluştur"
+            android:layout_below="@+id/harcamalarBaslik"
+            android:layout_marginLeft="5dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/dipDot"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp">
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+
+</FrameLayout>

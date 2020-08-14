@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.EveGir">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eve Gir "
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:fontFamily="@font/madelina"
+        android:layout_margin="10dp"
+        android:id="@+id/baslik"
+        />
+    <EditText
+        android:layout_below="@id/baslik"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/madelina"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İsim giriniz"
+        android:id="@+id/isimAlani"
+        />
+    <EditText
+        android:layout_margin="10dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/madelina"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/isimAlani"
+        android:hint="Gireceğiniz ev adi"
+        android:id="@+id/EvAdiAlani"
+        />
+    <EditText
+        android:layout_margin="10dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/madelina"
+        android:textSize="25sp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/EvAdiAlani"
+        android:hint="Şifre giriniz"
+        android:id="@+id/sifreAlani"
+        />
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/GirBtn"
+        android:textAllCaps="false"
+        android:background="@drawable/buttonarka"
+        android:text="Eve Gir"
+        android:fontFamily="@font/madelina"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>

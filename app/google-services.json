@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "306920015499",
+    "firebase_url": "https://ogrencievi-2566a.firebaseio.com",
+    "project_id": "ogrencievi-2566a",
+    "storage_bucket": "ogrencievi-2566a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:306920015499:android:30b98c5b298b8a7cc9f68e",
+        "android_client_info": {
+          "package_name": "com.example.ogrencievi2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "306920015499-rhfjitp1ff0agopj9su3hl60rlbuep5t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ogrencievi2",
+            "certificate_hash": "ad6641ead29615607d8c1d138830f740a6d5e9a0"
+          }
+        },
+        {
+          "client_id": "306920015499-9197c4935ohlcnf9d0fugepo62iuujkt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfR3NoJaCRm4vpaKTA4o_PZF7yEE4nb0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "306920015499-9197c4935ohlcnf9d0fugepo62iuujkt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

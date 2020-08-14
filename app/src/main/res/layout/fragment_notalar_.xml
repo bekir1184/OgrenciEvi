@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/grey_active"
+    tools:context=".Sayfalar.Notalar_Frag">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notlar"
+        android:textSize="25sp"
+        android:id="@+id/harcamalarBaslik"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textColor="@color/white"
+        android:id="@+id/dipDot"
+        android:textSize="15sp"
+        android:text="Yana kaydırarak tum notları gör"
+        android:layout_below="@+id/harcamalarBaslik"
+        android:layout_marginLeft="5dp"/>
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_below="@id/dipDot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/notlarView"/>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

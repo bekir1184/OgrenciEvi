@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QrKod.QrKod">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/madelina"
+        android:text="Kare Kod Tara"/>
+    <EditText
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/madelina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İsim giriniz"
+        android:layout_centerVertical="true"
+        android:id="@+id/isimAlaniQR"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tara"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:textAllCaps="false"
+        android:fontFamily="@font/madelina"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:text="Tara"
+        android:background="@drawable/buttonarka"/>
+
+
+
+
+
+
+</RelativeLayout>

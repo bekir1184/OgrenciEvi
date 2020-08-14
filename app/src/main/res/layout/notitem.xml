@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/grey_active"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:background="@color/cardview_shadow_end_color"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="24dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey_active"
+                android:gravity="center"
+                android:background="@drawable/edittextback"
+                android:text="Not Başlığı"
+                android:textSize="25sp"
+                android:id="@+id/notBaslikItem"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/notBaslikItem"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edittextback"
+                android:padding="10dp"
+                android:layout_above="@+id/ekleyenKisi"
+                android:textSize="15sp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et viverra ex. Nullam eu imperdiet est, nec mattis lacus. Mauris et pretium metus. Curabitur augue felis, tincidunt sed orci vel, tristique imperdiet turpis. Etiam gravida, augue et tempor condimentum, diam felis sodales neque, sit amet iaculis nulla elit quis odio. Mauris eget ultricies orci. Donec eu lacinia ipsum, porttitor luctus ex. Maecenas ullamcorper viverra turpis, non sodales leo. Cras in dolor eu ipsum imperdiet mattis. Etiam volutpat neque nisl, sit amet lobortis lacus eleifend sed. Sed dictum vel leo sed elementum. Sed eu erat nunc. Fusce a bibendum ligula. Phasellus pellentesque ornare lacinia. Ut facilisis sollicitudin turpis et accumsan."
+                android:id="@+id/icerik"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Bekir"
+                android:textSize="25sp"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/ekleyenKisi"
+                android:textColor="@color/grey_active"
+                android:gravity="center"
+                android:layout_marginRight="50dp"
+                android:layout_alignParentRight="true" />
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

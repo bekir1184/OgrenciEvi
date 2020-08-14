@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.EvOlustur">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yeni Ev Olustur"
+        android:fontFamily="@font/madelina"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        android:id="@+id/baslik"
+        android:layout_margin="10dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:fontFamily="@font/madelina"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/baslik"
+        android:hint="Ev Adini Giriniz"
+        android:id="@+id/evAdiET"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:fontFamily="@font/madelina"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kendi isminizi giriniz"
+        android:id="@+id/isimET"
+        android:layout_below="@id/evAdiET"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:fontFamily="@font/madelina"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Şifre giriniz"
+        android:layout_below="@id/isimET"
+        android:id="@+id/sifreET1"
+        android:layout_margin="10dp"
+        />
+    <EditText
+        android:fontFamily="@font/madelina"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Şifre Tekrarı"
+        android:layout_below="@id/sifreET1"
+        android:id="@+id/sifreET"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:textStyle="bold"
+        android:fontFamily="@font/madelina"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonarka"
+        android:layout_centerHorizontal="true"
+        android:text="Oluştur"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/OlusturBtn"/>
+
+
+</RelativeLayout>

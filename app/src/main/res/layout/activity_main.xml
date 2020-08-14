@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_marginTop="80dp"
+        android:id="@+id/baslik"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hosgeldiniz"
+        android:textSize="35sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:fontFamily="@font/madelina"
+        />
+    <TextView
+        android:id="@+id/aciklama"
+        android:layout_below="@+id/baslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arkadasiniz daha once bir ev kurdu ise karekod veya eve gir seceneklerinden birini seciniz .Evde ilk siz kullanacaksaniz yeni ev olustur tusuna tiklayiniz"
+        android:fontFamily="@font/madelina"
+        android:textSize="20dp"
+        android:layout_margin="10dp"/>
+    <Button
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aciklama"
+        android:background="@drawable/buttonarka"
+        android:id="@+id/eveGirBtn"
+        android:text="Eve Gir"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/madelina"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eveGirBtn"
+        android:id="@+id/evOlusturBtn"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/buttonarka"
+        android:text="Ev Olustur"
+        android:fontFamily="@font/madelina"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/evOlusturBtn"
+        android:id="@+id/QRKod"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/buttonarka"
+        android:text="Kare Kod Tara"
+        android:fontFamily="@font/madelina"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+
+        />
+
+
+
+
+
+
+
+</RelativeLayout>
