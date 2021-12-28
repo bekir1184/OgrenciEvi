@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af3756c9b13a60f7843d35878136ed21/zxing-1.9/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af3756c9b13a60f7843d35878136ed21/zxing-1.9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/af3756c9b13a60f7843d35878136ed21/zxing-1.9/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

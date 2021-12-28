@@ -56,7 +56,7 @@ public class AnaSayfa extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        AnaSayfa_Frag sayfaFrag= new AnaSayfa_Frag();
+        AnaSayfa_Frag sayfaFrag = new AnaSayfa_Frag();
         setFragment(sayfaFrag);
 
 

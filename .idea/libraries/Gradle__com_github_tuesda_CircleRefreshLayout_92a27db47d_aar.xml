@@ -3,6 +3,12 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d578cae43e5a3ddf500572f0ff0e45cb/jetified-CircleRefreshLayout-92a27db47d/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d578cae43e5a3ddf500572f0ff0e45cb/jetified-CircleRefreshLayout-92a27db47d/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/36dbdf404dfeeae880d0a300b20fbfdc/jetified-CircleRefreshLayout-92a27db47d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/36dbdf404dfeeae880d0a300b20fbfdc/jetified-CircleRefreshLayout-92a27db47d/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/36dbdf404dfeeae880d0a300b20fbfdc/jetified-CircleRefreshLayout-92a27db47d/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1622d720b09b806a1d90079a65afc1bc/jetified-CircleRefreshLayout-92a27db47d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1622d720b09b806a1d90079a65afc1bc/jetified-CircleRefreshLayout-92a27db47d/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1622d720b09b806a1d90079a65afc1bc/jetified-CircleRefreshLayout-92a27db47d/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

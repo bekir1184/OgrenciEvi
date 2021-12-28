@@ -21,8 +21,7 @@ public class HarcamaBilgi {
 
     }
     public HarcamaBilgi(){
-
-
+        
     }
 
     public String getID() {

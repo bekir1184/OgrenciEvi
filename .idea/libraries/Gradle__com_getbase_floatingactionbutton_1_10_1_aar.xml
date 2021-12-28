@@ -2,10 +2,18 @@
   <library name="Gradle: com.getbase:floatingactionbutton:1.10.1@aar">
     <ANNOTATIONS>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/703dd29a92f5fae9bf3441c3628c5ef9/jetified-floatingactionbutton-1.10.1/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e260abc54a36e8a8a7aae847fad0dafe/jetified-floatingactionbutton-1.10.1/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3c3096220da32f23b87ae3e3e50d560/jetified-floatingactionbutton-1.10.1/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/703dd29a92f5fae9bf3441c3628c5ef9/jetified-floatingactionbutton-1.10.1/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/703dd29a92f5fae9bf3441c3628c5ef9/jetified-floatingactionbutton-1.10.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e260abc54a36e8a8a7aae847fad0dafe/jetified-floatingactionbutton-1.10.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e260abc54a36e8a8a7aae847fad0dafe/jetified-floatingactionbutton-1.10.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/e260abc54a36e8a8a7aae847fad0dafe/jetified-floatingactionbutton-1.10.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3c3096220da32f23b87ae3e3e50d560/jetified-floatingactionbutton-1.10.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3c3096220da32f23b87ae3e3e50d560/jetified-floatingactionbutton-1.10.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c3c3096220da32f23b87ae3e3e50d560/jetified-floatingactionbutton-1.10.1/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.getbase/floatingactionbutton/1.10.1/a8227e5554ca7bf1c8b2e4059e1f64da97fcf6ca/floatingactionbutton-1.10.1-javadoc.jar!/" />

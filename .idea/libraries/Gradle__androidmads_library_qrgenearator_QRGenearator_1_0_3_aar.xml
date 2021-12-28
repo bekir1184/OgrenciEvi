@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ca14a7b0a8bf0cafa76087cdd595536/QRGenearator-1.0.3/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ca14a7b0a8bf0cafa76087cdd595536/QRGenearator-1.0.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1ca14a7b0a8bf0cafa76087cdd595536/QRGenearator-1.0.3/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidmads.library.qrgenearator/QRGenearator/1.0.3/6d5ba51325848da403567811ac218cd181ea8a84/QRGenearator-1.0.3-javadoc.jar!/" />
